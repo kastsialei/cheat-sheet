@@ -26,3 +26,6 @@ Contains useful for me and my work scripts and commands
  ## Git
 
  - Amend
+
+## Bash
+sudo !! - run previous bash command as sudo, for example if you typed it without sudo and want to rerun
