@@ -22,7 +22,7 @@ Contains useful for me and my work scripts and commands
 
  - Clean unused containers and volumes
  - `docker exec -it CONTAINER_HASH /bin/bash`
-
+ - clean logs of container : `truncate -s 0 /var/lib/docker/containers/$CONTAINER_HASH/$CONTAINER_HASH-json.log`
  ## Git
 
  - Amend
